@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+<teiHeader xml:lang="en">
+    <fileDesc> 
+        <titleStmt>
+            <title>Ut quid iubes, pusiole</title>
+            <author>Godeschalcus Orbiacensis</author>
+            <editor>Ludwig Traube</editor>
+            <respStmt>
+                <resp>conversion to TEI-conformant markup</resp>
+                <name>Emma Sofia Magnoni</name>
+            </respStmt>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Emma Sofia Magnoni</authority>
+            <pubPlace>Bologna</pubPlace>
+            <date>2024</date>
+        </publicationStmt>
+        <seriesStmt>
+             <title level="s">Frammenti poetici di Godescalco d'Orbais</title>
+             <respStmt>
+              <resp>ed. online by</resp>
+              <name>Emma Sofia Magnoni</name>
+             </respStmt>
+             <biblScope unit="poem">3.6</biblScope>
+        </seriesStmt>
+        <sourceDesc>
+            <bibl>1861-1907, Traube Ludwig. Poetae Latini Aevi Carolini. 3. / Recensuit Ludovicus Traube. Munchen: Monumenta Germaniae Historica, 1978, 1978. </bibl>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <projectDesc>
+            <p>Conversione in TEI dei testi poetici di Godescalco d'Orbais, Bologna 2024. L'obiettivo del progetto è rendere questi testi facilmente disponibili online e accessibili anche a lettori non specializzati.</p>
+        </projectDesc>
+        <editorialDecl>
+            <p>Viene riprodotta qui fedelmente l'edizione di Ludwig Traube riportata nella stampa del 1978 dei Monumenta Germaniae Historica</p>
+        </editorialDecl>
+        <tagsDecl>
+        </tagsDecl>
+    </encodingDesc>
+    <revisionDesc></revisionDesc>
+</teiHeader>
+
+<text xml:lang="la"> 
+    <body>
+    <head>VI Versus Godiscalchi</head>
+     
+    <lg type="quintet">
+        <l>ut quid iubes, <rhyme label="a">pusiole</rhyme>,</l>
+        <l>quare mandas, <rhyme label="a">filiole</rhyme>,</l>
+        <l>carmen dulce me <rhyme label="b">cantare</rhyme>,</l>
+        <l>cum sim longe exsul valde</l>
+        <l>intra <rhyme label="b">mare</rhyme>?</l>
+        <lg type="refrain"><l>o cur iubes canere?</l></lg>
+    </lg>
+
+    <lg>
+        <l>magis mihi, <rhyme label="c">miserule</rhyme>,</l>
+        <l>flere libet, <rhyme label="c">puerule</rhyme>,</l>
+        <l>plus plorare quam <rhyme label="d">cantare</rhyme></l>
+        <l>carmen <rhyme label="intra">tale</rhyme>, iubes <rhyme label="intra">quale</rhyme>,</l>
+        <l>amore <rhyme label="d">care</rhyme>.</l>
+        <lg type="refrain"><l>o cur iubes canere?</l></lg>
+    </lg>
+
+    <lg>
+        <l>mallem, scias, <rhyme label="e">pusillule</rhyme>,</l>
+        <l>ut velles tu, <rhyme label="e">fratercule</rhyme>,</l>
+        <l>pio corde <rhyme label="f">condolere</rhyme></l>
+        <l>mihi atque prona mente</l>
+        <l><rhyme label="f">conlugere</rhyme>.</l>
+        <lg type="refrain"><l>o cur iubes canere?</l></lg>
+    </lg>
+
+    <lg>
+        <l>scis, divine <rhyme label="g">tiruncule</rhyme>,</l>
+        <l>scis, superne <rhyme label="g">clientule</rhyme>,</l>
+        <l>hic diu me <rhyme label="h">exsulare</rhyme>,</l>
+        <l>multa die sive nocte</l>
+        <l><rhyme label="h">tolerare</rhyme>.</l>
+        <lg type="refrain"><l>o cur iubes canere?</l></lg>
+    </lg>
+    …
+    </body>
+</text>
+
+</TEI>
